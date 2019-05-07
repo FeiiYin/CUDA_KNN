@@ -1,4 +1,4 @@
-## Note of CUDA
+﻿## Note of CUDA
 
 + initial learning
 
@@ -15,6 +15,18 @@ grid_block 示意图
 对于线程设置的初始值还是不是很清楚
 
 ![image](https://github.com/Samaritan-Infi/CUDA_KNN/new/master/image/grid_block.png)
+
+内存修饰：__global__, __shared__, __constant__, __texture__
+
+寄存器：在核函数内 int i即表示寄存器变量。
+
+__global__：     全局内存，在主机函数中开辟和释放。
+
+__shared__：     共享存储，每个block内的线程共享这个存储。
+
+__constant__：   常量存储，只读。定义在所有函数之外，作用范围整个文件。
+
+__texture__：    纹理存储，只读。内存不连续。
 
 + GPU 矩阵乘法 
 
