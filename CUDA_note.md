@@ -6,7 +6,7 @@ reference: https://blog.csdn.net/breaksoftware/article/details/79302590
 
 函数修饰： __host__, __global__, __device__
 
-![image](https://github.com/Samaritan-Infi/CUDA_KNN/new/master/image/function_decorate.png)
+![image](https://github.com/Samaritan-Infi/CUDA_KNN/blob/master/image/function_decorate.png)
 
 __global__ 异步执行
 
@@ -14,7 +14,7 @@ grid_block 示意图
 
 对于线程设置的初始值还是不是很清楚
 
-![image](https://github.com/Samaritan-Infi/CUDA_KNN/new/master/image/grid_block.png)
+![image](https://github.com/Samaritan-Infi/CUDA_KNN/blob/master/image/grid_block.png)
 
 内存修饰：__global__, __shared__, __constant__, __texture__
 
